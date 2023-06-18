@@ -1,0 +1,30 @@
+{
+  "name": "tai3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "author": "Jakub Fik",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/register": "^7.22.5",
+    "babel-core": "6.26.3",
+    "babel-preset-es2015": "6.24.1",
+    "body-parser": "^1.18.3",
+    "core-util-is": "^1.0.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "4.17.0",
+    "mongoose": "^5.13.17",
+    "mongoose-unique-validator": "2.0.3",
+    "morgan": "^1.9.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
